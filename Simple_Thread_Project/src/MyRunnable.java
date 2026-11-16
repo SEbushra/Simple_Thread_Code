@@ -10,7 +10,8 @@ public class MyRunnable implements Runnable {
                 System.out.println("Thread interrupted: ");
             }
             if (i == 5) {
-                System.out.println("Thread is exiting");
+                System.out.println("Time's up!");
+                System.exit(0);
             }
         }
     }
